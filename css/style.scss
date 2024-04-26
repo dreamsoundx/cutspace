@@ -2,8 +2,7 @@
 &display=swap
 &subset=cyrillic-ext 
 */
-@import url('https://fonts.googleapis.com/css?family=Anton:400&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400&display=swap&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
 @import '_null';
 
 html {
@@ -31,6 +30,7 @@ body {
 .header {
 }
 .main {
+  flex: 1 1 auto;
 }
 .footer {
 }
