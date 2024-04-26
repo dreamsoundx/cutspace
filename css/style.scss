@@ -1,0 +1,182 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url('https://fonts.googleapis.com/css?family=Anton:400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400&display=swap&subset=cyrillic-ext');
+@import '_null';
+
+html {
+  font-size: 16px;
+}
+body {
+  line-height: 1;
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+[class*='__container'] {
+  margin: 0px auto;
+  max-width: 1200px;
+  padding: 0px 15px;
+}
+
+.header {
+}
+.main {
+  flex: 1 1 auto;
+}
+<<<<<<< HEAD
+.offer {
+  background: url('../assets/offer/burning-man.jpg') 50% 0 / cover no-repeat;
+  // .offer_container
+
+  &__container {
+  }
+
+  // .offer__content
+
+  &__content {
+    padding: 328px 0px 322px 0px;
+  }
+
+  // .offer__subtitle
+
+  &__subtitle {
+    color: #ffffff;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+
+  // .offer__title
+
+  &__title {
+    color: rgb(255, 255, 255);
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+    text-transform: uppercase;
+    &:not(:last-child) {
+      margin-bottom: 44px;
+    }
+  }
+
+  // .offer__button
+
+  &__button {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-family: 'Anton', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px 49px 19px 49px;
+  }
+}
+
+.about {
+  // .about__container
+
+  &__container {
+  }
+
+  // .about__content
+
+  &__content {
+    padding: 113px 0px 113px 0px;
+  }
+
+  // .about__title
+
+  &__title {
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    &:not(:last-child) {
+      margin-bottom: 56px;
+    }
+  }
+  .about {
+    // .about__items
+
+    &__items {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 30px;
+      margin: 0px -15px;
+    }
+
+    // .about__item
+
+    &__item {
+      flex: 1 1 50%;
+      padding: 0px 15px;
+    }
+  }
+  .item-about {
+    // .item-about__body
+
+    &__body {
+    }
+
+    // .item-about__title
+
+    &__title {
+      font-family: 'Anton', sans-serif;
+      font-size: 25px;
+      text-transform: uppercase;
+    }
+
+    // .item-about__text
+
+    &__text {
+      line-height: 163%;
+      text-align: justify;
+    }
+
+    // .item-about__photos
+
+    &__photos {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 30px;
+      margin: 0px -15px;
+    }
+
+    // .item-about__photo
+
+    &__photo {
+      flex: 1 1 50%;
+      padding: 0px 15px;
+      // .item-about__photo_big
+      &_big {
+      }
+    }
+
+    // .item-about__image
+
+    &__image {
+      max-width: 100%;
+    }
+  }
+}
+
+=======
+
+>>>>>>> d700861 (init: start cutspace project)
+.footer {
+}
