@@ -10,8 +10,8 @@ html {
 }
 body {
   line-height: 1;
-  font-family: 'Open Sans', sans-serif;
-  color: #000000;
+  font-family: 'Poppins', sans-serif;
+  color: #323232;
 }
 
 .wrapper {
@@ -23,7 +23,7 @@ body {
 
 [class*='__container'] {
   margin: 0px auto;
-  max-width: 1200px;
+  max-width: 1140px;
   padding: 0px 15px;
 }
 
@@ -31,6 +31,68 @@ body {
 }
 .main {
   flex: 1 1 auto;
+}
+
+.why-choose-us {
+  // .why-choose-us__container
+
+  &__container {
+  }
+
+  // .why-choose-us__content
+
+  &__content {
+  }
+
+  // .why-choose-us__title
+
+  &__title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 148%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    &:not(:last-child) {
+      margin-bottom: 58px;
+    }
+  }
+
+  // .why-choose-us__items
+
+  &__items {
+    display: flex;
+  }
+
+  // .why-choose-us__item
+
+  &__item {
+  }
+}
+.item-why-choose-us {
+  // .item-why-choose-us__icon
+
+  &__icon {
+  }
+
+  // .item-why-choose-us__item
+
+  &__item {
+  }
+
+  // .item-why-choose-us__body
+
+  &__body {
+  }
+
+  // .item-why-choose-us__title
+
+  &__title {
+  }
+
+  // .item-why-choose-us__text
+
+  &__text {
+  }
 }
 .footer {
 }
