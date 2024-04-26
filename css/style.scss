@@ -33,6 +33,54 @@ body {
   flex: 1 1 auto;
 }
 
+.we-provide {
+  // .we-provide__container
+
+  &__container {
+  }
+
+  // .we-provide__content
+
+  &__content {
+    padding: 99px 0px 0px 0px;
+  }
+
+  // .we-provide__companies
+
+  &__companies {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -48px;
+    row-gap: 40px;
+  }
+
+  // .we-provide__company
+
+  &__company {
+    flex: 1 1 25%;
+    padding: 0px 48px;
+  }
+}
+.company-we-provide {
+  display: flex;
+  align-items: center;
+  column-gap: 11.33px;
+  // .company-we-provide__logo
+
+  &__logo {
+  }
+
+  // .company-we-provide__image
+
+  &__image {
+  }
+
+  // .company-we-provide__icon
+
+  &__icon {
+  }
+}
+
 .why-choose-us {
   // .why-choose-us__container
 
