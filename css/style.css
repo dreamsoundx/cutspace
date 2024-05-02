@@ -75,6 +75,23 @@ body {
   padding: 0px 15px;
 }
 
+.titles {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 148%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.button {
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  border-radius: 29px;
+  background: grey;
+  padding: 16px 39px;
+}
+
 .main {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
@@ -126,6 +143,9 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+.company-we-provide__image {
+  max-width: 100%;
+}
 .company-we-provide__icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -138,12 +158,70 @@ body {
           align-items: center;
 }
 
-.why-choose-us__title {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 148%;
-  letter-spacing: 0.02em;
+.who-do-we-serve__title:not(:last-child) {
+  margin-bottom: 10px;
+}
+.who-do-we-serve__text {
   text-align: center;
+  line-height: 169%;
+  letter-spacing: 0.07em;
+}
+.who-do-we-serve__text:not(:last-child) {
+  margin-bottom: 45px;
+}
+.who-do-we-serve__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  row-gap: 30px;
+}
+.who-do-we-serve__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+}
+
+.item-who-do-we-serve {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-shadow: 0 40px 52px -22px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 40px 52px -22px rgba(0, 0, 0, 0.08);
+  background: #fff;
+  padding: 39px 88px 40px 88px;
+}
+.item-who-do-we-serve__icon {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 70px;
+          flex: 0 0 70px;
+  width: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.item-who-do-we-serve__item {
+  max-width: 100%;
+  max-height: 70px;
+}
+.item-who-do-we-serve__title:not(:last-child) {
+  margin-bottom: 15px;
+}
+.item-who-do-we-serve__text:not(:last-child) {
+  margin-bottom: 25px;
 }
 .why-choose-us__title:not(:last-child) {
   margin-bottom: 58px;
