@@ -50,15 +50,15 @@ body {
   &__companies {
     display: flex;
     flex-wrap: wrap;
-    margin: 0px -48px;
-    row-gap: 40px;
+    margin: 0px -31px;
+    row-gap: 31px;
   }
 
   // .we-provide__company
 
   &__company {
     flex: 1 1 25%;
-    padding: 0px 48px;
+    padding: 0px 31px;
   }
 }
 .company-we-provide {
@@ -68,6 +68,11 @@ body {
   // .company-we-provide__logo
 
   &__logo {
+    display: flex;
+    flex: 0 0 42px;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
   }
 
   // .company-we-provide__image
@@ -78,6 +83,9 @@ body {
   // .company-we-provide__icon
 
   &__icon {
+    display: flex;
+    flex: 0 0 177px;
+    align-items: center;
   }
 }
 

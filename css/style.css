@@ -90,14 +90,14 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 0px -48px;
-  row-gap: 40px;
+  margin: 0px -31px;
+  row-gap: 31px;
 }
 .we-provide__company {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 25%;
           flex: 1 1 25%;
-  padding: 0px 48px;
+  padding: 0px 31px;
 }
 
 .company-we-provide {
@@ -111,6 +111,33 @@ body {
      -moz-column-gap: 11.33px;
           column-gap: 11.33px;
 }
+.company-we-provide__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 42px;
+          flex: 0 0 42px;
+  height: 42px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.company-we-provide__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 177px;
+          flex: 0 0 177px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .why-choose-us__title {
   font-weight: 700;
   font-size: 42px;
