@@ -41,7 +41,7 @@ body {
   text-align: center;
   border-radius: 29px;
   background: grey;
-  padding: 16px 39px;
+  padding: 21px 39px;
 }
 
 .header {
@@ -76,6 +76,7 @@ body {
   &__company {
     flex: 1 1 25%;
     padding: 0px 31px;
+    min-width: 275px;
   }
 }
 .company-we-provide {
@@ -96,6 +97,7 @@ body {
 
   &__image {
     max-width: 100%;
+    max-height: 63px;
   }
 
   // .company-we-provide__icon
@@ -141,13 +143,16 @@ body {
 
   &__items {
     display: flex;
+    flex-wrap: wrap;
     row-gap: 30px;
+    margin: 0px -15px;
   }
 
   // .who-do-we-serve__item
 
   &__item {
     flex: 1 1 50%;
+    padding: 0px 15px;
   }
 }
 
@@ -159,6 +164,7 @@ body {
   box-shadow: 0 40px 52px -22px rgba(0, 0, 0, 0.08);
   background: #fff;
   padding: 39px 88px 40px 88px;
+  height: 100%;
 
   &__icon {
     flex: 0 0 70px;
@@ -166,6 +172,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
   }
 
   &__item {
@@ -177,13 +186,16 @@ body {
 
   &__title {
     &:not(:last-child) {
-      margin-bottom: 15px;
+      margin-bottom: 2px;
     }
   }
 
   // .item-who-do-we-serve__text
 
   &__text {
+    flex: 1 1 auto;
+    line-height: 169%;
+    letter-spacing: 0.07em;
     &:not(:last-child) {
       margin-bottom: 25px;
     }
@@ -219,37 +231,56 @@ body {
 
   &__items {
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 35px;
+    margin: 0px -11px;
   }
 
   // .why-choose-us__item
 
   &__item {
+    flex: 1 1 25%;
+    padding: 0px 11px;
   }
 }
 .item-why-choose-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   // .item-why-choose-us__icon
 
   &__icon {
+    &:not(:last-child) {
+      margin-bottom: 22px;
+    }
   }
 
   // .item-why-choose-us__item
 
   &__item {
-  }
-
-  // .item-why-choose-us__body
-
-  &__body {
+    max-width: 100%;
   }
 
   // .item-why-choose-us__title
 
   &__title {
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 0.02em;
+    color: #323232;
+    &:not(:last-child) {
+      margin-bottom: 8px;
+    }
   }
 
   // .item-why-choose-us__text
 
   &__text {
+    flex: 1 1 auto;
+    line-height: 169%;
+    letter-spacing: 0.07em;
+    color: #323232;
   }
 }
 .footer {
