@@ -58,7 +58,7 @@ body {
   // .we-provide__content
 
   &__content {
-    padding: 99px 0px 0px 0px;
+    padding: 100px 0px 100px 0px;
   }
 
   // .we-provide__companies
@@ -66,22 +66,21 @@ body {
   &__companies {
     display: flex;
     flex-wrap: wrap;
-    margin: 0px -47.7px;
-    row-gap: 31px;
+    margin: 0px -31.6px;
+    row-gap: 31.6px;
   }
 
   // .we-provide__company
 
   &__company {
     flex: 1 1 25%;
-    padding: 0px 47.7px;
+    padding: 0px 31.6px;
     min-width: 230px;
   }
 }
 .company-we-provide {
   display: flex;
-  align-items: center;
-  column-gap: 11.33px;
+  column-gap: 12px;
   // .company-we-provide__logo
 
   &__logo {
@@ -96,75 +95,67 @@ body {
 
   &__image {
     max-width: 100%;
-    max-height: 63px;
+    max-height: 42px;
   }
 
   // .company-we-provide__icon
 
   &__icon {
     display: flex;
-    flex: 0 0 177px;
     align-items: center;
   }
 }
 
-// в процессе
-// .start-using {
-// }
-// .start-using__container {
-// }
-// .start-using__content {
-//   position: relative;
-//   display: flex;
-//   flex-wrap: wrap;
-//   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-//   background: #58bebf;
-//   border-radius: 20px;
-//   padding: 2.4% 0px 0px 0px;
-//   overflow: hidden;
-// }
-// .start-using__image {
-//   flex: 1 1 50%;
-//   display: flex;
-//   align-self: flex-end;
-//   margin-bottom: -4%;
-// }
-// .start-using__item {
-//   max-width: 100%;
-//   padding-top: 4%;
-//   padding-right: 4%;
-//   background: #fff;
-//   border-radius: 0px 20px 0px 0px;
-//   box-shadow: 4px 20px 42px -2px rgba(0, 0, 0, 0.12);
-//   background: #fff;
-// }
-// .start-using__body {
-//   flex: 1 1 50%;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   flex-direction: column;
-//   // padding: 65px 95px 111px 95px;
-// }
+.start-using {
+  // .start-using__container
 
-// .start-using__title {
-//   color: #fff;
-//   &:not(:last-child) {
-//     margin-bottom: 15px;
-//   }
-// }
-// .start-using__text {
-//   line-height: 169%;
-//   letter-spacing: 0.07em;
-//   color: #fff;
-//   &:not(:last-child) {
-//     margin-bottom: 50px;
-//   }
-// }
-// .start-using__buttons {
-// }
-// .start-using__button {
-// }
+  &__container {
+  }
+
+  // .start-using__content
+
+  &__content {
+  }
+
+  // .start-using__image
+
+  &__image {
+  }
+
+  // .start-using__item
+
+  &__item {
+  }
+
+  // .start-using__body
+
+  &__body {
+  }
+
+  // .start-using__title
+
+  &__title {
+  }
+
+  // .start-using__text
+
+  &__text {
+  }
+
+  // .start-using__buttons
+
+  &__buttons {
+  }
+
+  // .start-using__button
+
+  &__button {
+  }
+}
+.titles {
+}
+.button {
+}
 
 .who-do-we-serve {
   // .who-do-we-serve__container
