@@ -32,7 +32,6 @@ body {
   font-size: 42px;
   line-height: 148%;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 
 .button {
@@ -109,26 +108,63 @@ body {
   }
 }
 
-.start-using {
-}
-.start-using__container {
-}
-.start-using__content {
-}
-.start-using__image {
-}
-.start-using__item {
-}
-.start-using__body {
-}
-.start-using__title {
-}
-.start-using__text {
-}
-.start-using__buttons {
-}
-.start-using__button {
-}
+// в процессе
+// .start-using {
+// }
+// .start-using__container {
+// }
+// .start-using__content {
+//   position: relative;
+//   display: flex;
+//   flex-wrap: wrap;
+//   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+//   background: #58bebf;
+//   border-radius: 20px;
+//   padding: 2.4% 0px 0px 0px;
+//   overflow: hidden;
+// }
+// .start-using__image {
+//   flex: 1 1 50%;
+//   display: flex;
+//   align-self: flex-end;
+//   margin-bottom: -4%;
+// }
+// .start-using__item {
+//   max-width: 100%;
+//   padding-top: 4%;
+//   padding-right: 4%;
+//   background: #fff;
+//   border-radius: 0px 20px 0px 0px;
+//   box-shadow: 4px 20px 42px -2px rgba(0, 0, 0, 0.12);
+//   background: #fff;
+// }
+// .start-using__body {
+//   flex: 1 1 50%;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   flex-direction: column;
+//   // padding: 65px 95px 111px 95px;
+// }
+
+// .start-using__title {
+//   color: #fff;
+//   &:not(:last-child) {
+//     margin-bottom: 15px;
+//   }
+// }
+// .start-using__text {
+//   line-height: 169%;
+//   letter-spacing: 0.07em;
+//   color: #fff;
+//   &:not(:last-child) {
+//     margin-bottom: 50px;
+//   }
+// }
+// .start-using__buttons {
+// }
+// .start-using__button {
+// }
 
 .who-do-we-serve {
   // .who-do-we-serve__container
@@ -144,6 +180,7 @@ body {
   // .who-do-we-serve__title
 
   &__title {
+    text-align: center;
     &:not(:last-child) {
       margin-bottom: 10px;
     }
@@ -243,6 +280,7 @@ body {
   // .why-choose-us__title
 
   &__title {
+    text-align: center;
     &:not(:last-child) {
       margin-bottom: 58px;
     }

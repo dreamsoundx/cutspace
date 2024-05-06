@@ -80,7 +80,6 @@ body {
   font-size: 42px;
   line-height: 148%;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 
 .button {
@@ -160,6 +159,9 @@ body {
           align-items: center;
 }
 
+.who-do-we-serve__title {
+  text-align: center;
+}
 .who-do-we-serve__title:not(:last-child) {
   margin-bottom: 10px;
 }
@@ -239,6 +241,9 @@ body {
 }
 .item-who-do-we-serve__text:not(:last-child) {
   margin-bottom: 25px;
+}
+.why-choose-us__title {
+  text-align: center;
 }
 .why-choose-us__title:not(:last-child) {
   margin-bottom: 58px;
