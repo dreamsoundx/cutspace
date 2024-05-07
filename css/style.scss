@@ -85,8 +85,8 @@ body {
 
   &__logo {
     display: flex;
-    flex: 0 0 42px;
-    height: 42px;
+    // flex: 0 0 42px;
+    // height: 42px;
     justify-content: center;
     align-items: center;
   }
@@ -95,7 +95,7 @@ body {
 
   &__image {
     max-width: 100%;
-    max-height: 42px;
+    // max-height: 42px;
   }
 
   // .company-we-provide__icon
