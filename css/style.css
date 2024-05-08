@@ -289,11 +289,23 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  border-radius: 10px;
   -webkit-box-shadow: 0 40px 52px -22px rgba(0, 0, 0, 0.08);
           box-shadow: 0 40px 52px -22px rgba(0, 0, 0, 0.08);
   background: #fff;
   padding: 39px 88px 40px 88px;
   height: 100%;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.item-who-do-we-serve:hover {
+  background: #f78434;
+}
+.item-who-do-we-serve:hover .item-who-do-we-serve__title {
+  color: #fff;
+}
+.item-who-do-we-serve:hover .item-who-do-we-serve__text {
+  color: #fff;
 }
 .item-who-do-we-serve__icon {
   -webkit-box-flex: 0;
@@ -330,6 +342,11 @@ body {
 .item-who-do-we-serve__text:not(:last-child) {
   margin-bottom: 25px;
 }
+.item-who-do-we-serve__button:hover {
+  color: #323232;
+  background: #fff;
+}
+
 .why-choose-us__title {
   text-align: center;
 }
