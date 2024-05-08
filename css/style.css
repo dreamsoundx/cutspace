@@ -225,29 +225,28 @@ body {
           column-gap: 20px;
   row-gap: 20px;
 }
-.body-start-using__button_play {
+.body-start-using .play-button {
   padding: 21px 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
   -webkit-column-gap: 8px;
      -moz-column-gap: 8px;
           column-gap: 8px;
 }
-.body-start-using__button_play::before {
-  content: "";
-  display: block;
-  height: 12px;
-  width: 12px;
-  background: url("../assets/start-using/icons/play.svg") 0 0 no-repeat;
+.body-start-using .play-button:hover .play-button__icon path {
+  fill: #f78434;
 }
-
 .who-do-we-serve__title {
   text-align: center;
 }

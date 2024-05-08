@@ -195,21 +195,20 @@ body {
   // .body-start-using__button
 
   &__button {
-    // .body-start-using__button_play
+  }
 
-    &_play {
-      padding: 21px 30px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      column-gap: 8px;
-      &::before {
-        content: '';
-        display: block;
-        height: 12px;
-        width: 12px;
-        background: url('../assets/start-using/icons/play.svg') 0 0 no-repeat;
-      }
+  .play-button {
+    padding: 21px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    column-gap: 8px;
+    // .play-button__icon
+    &:hover .play-button__icon path {
+      fill: #f78434;
+    }
+    &__icon {
     }
   }
 }
