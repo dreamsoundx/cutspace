@@ -117,14 +117,17 @@ body {
   &__content {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     border-radius: 20px;
     background: #58bebf;
-    padding: 59px 0px 0px 0px;
+    // padding: 59px 0px 0px 0px;
   }
 
   // .start-using__image
 
   &__image {
+    padding: 59px 0px 0px 0px;
     flex: 1 1 50%;
     align-self: flex-end;
   }
@@ -145,22 +148,25 @@ body {
 
   &__body {
     flex: 1 1 50%;
-    display: flex;
-    flex-direction: column;
-    padding: 33px 95px 92px 95px;
-    min-width: 400px;
+    // min-width: 400px;
   }
-
-  // .start-using__title
+}
+.body-start-using {
+  // display: flex;
+  // justify-content: center;
+  flex-direction: column;
+  padding: 33px 95px 33px 95px;
+  // .body-start-using__title
 
   &__title {
     color: #fff;
+    // max-width: 340px;
     &:not(:last-child) {
       margin-bottom: 16px;
     }
   }
 
-  // .start-using__text
+  // .body-start-using__text
 
   &__text {
     line-height: 169%;
@@ -172,7 +178,7 @@ body {
     }
   }
 
-  // .start-using__buttons
+  // .body-start-using__buttons
 
   &__buttons {
     display: flex;
@@ -181,14 +187,10 @@ body {
     row-gap: 20px;
   }
 
-  // .start-using__button
+  // .body-start-using__button
 
   &__button {
   }
-}
-.titles {
-}
-.button {
 }
 
 .who-do-we-serve {
