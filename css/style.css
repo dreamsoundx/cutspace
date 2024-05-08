@@ -160,12 +160,6 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   border-radius: 20px;
   background: #58bebf;
 }
@@ -188,9 +182,39 @@ body {
   background: #fff;
 }
 .start-using__body {
+  position: relative;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 50%;
           flex: 1 1 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.start-using__body::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 54.7%;
+  height: 100%;
+  margin: -18% 0px 0px -34%;
+  background: url("../assets/start-using/img/oval.png") 0 0/100% no-repeat;
+}
+.start-using__body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40.5%;
+  height: 100%;
+  margin: 0px 0px 0px 0px;
+  background: url("../assets/start-using/img/oval2.png") 0 0/100% no-repeat;
 }
 
 .body-start-using {
@@ -198,7 +222,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 35px 95px 35px 95px;
+  max-width: 435px;
+  padding: 35px 35px 35px 35px;
 }
 .body-start-using__title {
   color: #fff;
@@ -210,6 +235,7 @@ body {
   line-height: 169%;
   letter-spacing: 0.07em;
   color: #fff;
+  max-width: 320px;
 }
 .body-start-using__text:not(:last-child) {
   margin-bottom: 29px;
