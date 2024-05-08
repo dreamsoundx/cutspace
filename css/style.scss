@@ -39,8 +39,13 @@ body {
   color: #fff;
   text-align: center;
   border-radius: 29px;
-  background: grey;
+  background: #f78434;
   padding: 21px 39px;
+  transition: all 0.5s ease 0s;
+  &:hover {
+    color: #323232;
+    background: #fff;
+  }
 }
 
 .header {
@@ -190,6 +195,22 @@ body {
   // .body-start-using__button
 
   &__button {
+    // .body-start-using__button_play
+
+    &_play {
+      padding: 21px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 8px;
+      &::before {
+        content: '';
+        display: block;
+        height: 12px;
+        width: 12px;
+        background: url('../assets/start-using/icons/play.svg') 0 0 no-repeat;
+      }
+    }
   }
 }
 

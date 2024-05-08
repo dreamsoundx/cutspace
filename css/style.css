@@ -87,8 +87,14 @@ body {
   color: #fff;
   text-align: center;
   border-radius: 29px;
-  background: grey;
+  background: #f78434;
   padding: 21px 39px;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.button:hover {
+  color: #323232;
+  background: #fff;
 }
 
 .main {
@@ -219,6 +225,29 @@ body {
           column-gap: 20px;
   row-gap: 20px;
 }
+.body-start-using__button_play {
+  padding: 21px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 8px;
+     -moz-column-gap: 8px;
+          column-gap: 8px;
+}
+.body-start-using__button_play::before {
+  content: "";
+  display: block;
+  height: 12px;
+  width: 12px;
+  background: url("../assets/start-using/icons/play.svg") 0 0 no-repeat;
+}
+
 .who-do-we-serve__title {
   text-align: center;
 }
