@@ -144,6 +144,7 @@ body {
 }
 .company-we-provide__image {
   max-width: 100%;
+  max-height: 42px;
 }
 .company-we-provide__icon {
   display: -webkit-box;
