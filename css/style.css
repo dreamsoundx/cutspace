@@ -537,6 +537,24 @@ body {
           flex: 1 1 33.333%;
   padding: 0px 15px;
 }
+@media (min-width: 1110px) {
+  .customers__item {
+    max-width: 380px;
+  }
+}
+.customers__item:last-child {
+  position: relative;
+}
+.customers__item:last-child .item-customers::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -6.9%;
+  width: 21.4%;
+  height: 100%;
+  margin: -10.5% 0px 0px 0px;
+  background: url("../assets/customers/icons/shape.svg") 0 0/100% no-repeat;
+}
 
 .item-customers {
   display: -webkit-box;
@@ -551,11 +569,6 @@ body {
   min-width: 290px;
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
-}
-@media (min-width: 1110px) {
-  .item-customers {
-    max-width: 350px;
-  }
 }
 .item-customers:hover {
   -webkit-box-shadow: 0 10px 52px 0 rgba(0, 0, 0, 0.08);
