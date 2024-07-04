@@ -146,6 +146,10 @@ body {
           column-gap: 12px;
 }
 .company-about__logo {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 42px;
+          flex: 0 0 42px;
+  height: 42px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -224,7 +228,7 @@ body {
   width: 54.7%;
   height: 100%;
   margin: -18% 0px 0px -34%;
-  background: url("../assets/using/img/oval.png") 0 0/100% no-repeat;
+  background: url("../assets/using/icons/oval.svg") 0 0/100% no-repeat;
 }
 .using__body::after {
   content: "";
@@ -234,7 +238,7 @@ body {
   width: 40.5%;
   height: 100%;
   margin: 0px 0px 0px 0px;
-  background: url("../assets/using/img/oval2.png") 0 0/100% no-repeat;
+  background: url("../assets/using/icons/oval2.svg") 0 0/100% no-repeat;
 }
 
 .body-using {
