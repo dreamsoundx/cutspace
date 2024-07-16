@@ -582,7 +582,7 @@ body {
   color: #f78434;
 }
 .item-customers__image {
-  padding: 58.28% 0px 0px 0px;
+  padding: 0px 0px 58.28% 0px;
 }
 .item-customers__body {
   -webkit-box-flex: 1;
