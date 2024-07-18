@@ -395,6 +395,12 @@ body {
     justify-content: center;
     row-gap: 35px;
     margin: 0px -8.25px;
+    @media (max-width: 1121.98px) {
+      justify-content: flex-start;
+    }
+    @media (max-width: 1120.98px) {
+      justify-content: center;
+    }
   }
 
   // .choose__item

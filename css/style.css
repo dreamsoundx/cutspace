@@ -425,6 +425,20 @@ body {
   row-gap: 35px;
   margin: 0px -8.25px;
 }
+@media (max-width: 1121.98px) {
+  .choose__items {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+@media (max-width: 1120.98px) {
+  .choose__items {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .choose__item {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 25%;
