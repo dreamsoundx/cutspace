@@ -425,7 +425,7 @@ body {
   row-gap: 35px;
   margin: 0px -8.25px;
 }
-@media (max-width: 1134px) {
+@media (max-width: 1133.98px) {
   .choose__items {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
