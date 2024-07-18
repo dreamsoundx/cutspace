@@ -395,10 +395,10 @@ body {
     justify-content: center;
     row-gap: 35px;
     margin: 0px -8.25px;
-    @media (max-width: 1121.98px) {
+    @media (max-width: 1133.98px) {
       justify-content: flex-start;
     }
-    @media (max-width: 1120.98px) {
+    @media (max-width: 1132.98px) {
       justify-content: center;
     }
   }
@@ -409,7 +409,8 @@ body {
     flex: 0 1 25%;
     padding: 0px 8.25px;
     transition: all 0.5s ease 0s;
-    @media (max-width: 1121.98px) {
+    min-width: 280px;
+    @media (max-width: 1133.98px) {
       flex: 0 1 50%;
     }
     @media (max-width: 567.98px) {
